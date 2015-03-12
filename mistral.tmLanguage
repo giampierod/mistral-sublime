@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>mist</string>
+	</array>
+	<key>name</key>
+	<string>Mistral</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.yaml</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.yaml.mist</string>
+	<key>uuid</key>
+	<string>6B141AA5-050A-4108-BFEA-576B9CFEDA3B</string>
+</dict>
+</plist>

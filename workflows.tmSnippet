@@ -1,0 +1,25 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+	<key>content</key>
+	<string>workflows:
+	${1:workflow-name}:
+		type: ${2:type}
+
+		${3:input:
+			$4}
+
+		${5:tasks:
+			$6}
+</string>
+	<key>name</key>
+	<string>workflows</string>
+	<key>scope</key>
+	<string>source.yaml.mist</string>
+	<key>tabTrigger</key>
+	<string>wfs</string>
+	<key>uuid</key>
+	<string>B97F4344-CA96-4370-8334-A50EB6872D8C</string>
+</dict>
+</plist>

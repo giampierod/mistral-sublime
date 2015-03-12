@@ -1,0 +1,17 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+	<key>content</key>
+	<string>publish:
+  ${1:out_var}: ${2:val}</string>
+	<key>name</key>
+	<string>publish</string>
+	<key>scope</key>
+	<string>source.yaml.mist</string>
+	<key>tabTrigger</key>
+	<string>pub</string>
+	<key>uuid</key>
+	<string>BC74D1AD-E666-4CB6-9D36-9A1DBA88D2BB</string>
+</dict>
+</plist>

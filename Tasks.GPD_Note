@@ -1,0 +1,20 @@
+//2014.08.31.23.24//
+    #(3 Modes)
+
+    - Mobile
+    - Casual
+    - Work
+//End//
+
+//2014.08.30.00.19//
+    #(Phase 1) Build sublime text package
+
+    - Downloads tagged branches from github
+    - Parses mistral yaml DSL on-the-fly
+    - Parses mistral libs to offer auto-suggest
+    - Boiler-plate generator for namespaces
+    - Debugger
+    - REPL?
+    - Mistral repository?
+//End//
+
