@@ -26,12 +26,10 @@ DEALINGS IN THE SOFTWARE.
 	<string>workflows:
 	${1:workflow-name}:
 		type: ${2:type}
-
 		${3:input:
 			$4}
-
-		${5:tasks:
-			$6}
+		tasks:
+			$0
 </string>
 	<key>name</key>
 	<string>workflows</string>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Copyright (c) 2015 Giampiero De Ciantis <gdeciantis@gmail.com>
 
@@ -20,23 +21,34 @@ DEALINGS IN THE SOFTWARE.
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-
 <dict>
 	<key>content</key>
-	<string>${1:workflow-name}:
-	type: ${2:type}
-	${3:input:
- 		$4}
-	tasks:
-		$0
-</string>
+	<string>action: std.mistral_http
+	input:
+		url: ${1:URL}
+		${2:method: ${3:GET}
+		}${4:params:
+			$5
+		}${6:body:
+			$7
+		}${8:headers:
+			$9
+		}${10:cookies:
+			$11
+		}${12:auth: ${13:username}:${14:password}
+		}${15:timeout: ${16:30}
+		}${17:allow_redirects: ${18:false}
+		}${19:proxies:
+			$20}
+${21:	$22
+}$0</string>
 	<key>name</key>
-	<string>workflow</string>
+	<string>action: std.mistral_http</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>wf</string>
+	<string>amht</string>
 	<key>uuid</key>
-	<string>6362EA34-AF79-4644-82D5-FB4F90DDEC23</string>
+	<string>BB090AAF-8F9E-4282-804E-F6B437E69D44</string>
 </dict>
 </plist>

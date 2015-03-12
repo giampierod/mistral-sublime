@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Copyright (c) 2015 Giampiero De Ciantis <gdeciantis@gmail.com>
 
@@ -20,23 +21,26 @@ DEALINGS IN THE SOFTWARE.
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-
 <dict>
 	<key>content</key>
-	<string>${1:workflow-name}:
-	type: ${2:type}
-	${3:input:
- 		$4}
-	tasks:
-		$0
-</string>
+	<string>action: std.email
+	input:
+		to_addrs: [${1:address@yourcompany.com}]
+		subject: ${2:Hi}
+		body: |
+			${3:Body}			
+		from_addr: ${4:mistral@yourcompany.com}
+		smtp_server: ${5:smtp.yourcompany.com}
+		smpt_password: ${6:SECRET}
+${7:	$8
+}$0</string>
 	<key>name</key>
-	<string>workflow</string>
+	<string>base: std.email</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>wf</string>
+	<string>aem</string>
 	<key>uuid</key>
-	<string>6362EA34-AF79-4644-82D5-FB4F90DDEC23</string>
+	<string>DD058C27-5687-42F9-86D1-50FAB331BD06</string>
 </dict>
 </plist>

@@ -27,6 +27,7 @@ DEALINGS IN THE SOFTWARE.
 version: "2.0"
 
 name: ${1:name}
+
 $0</string>
 	<key>name</key>
 	<string>Start Mistral File</string>
