@@ -24,21 +24,24 @@ DEALINGS IN THE SOFTWARE.
 <dict>
 	<key>content</key>
 	<string>${1:action-name}:
-	base: ${2:base-name}
+	base: std.ssh
 	base-input:
-		$5
+		cmd: ${2:command}
+		host: ${3:host}
+		username: ${4:username}
+		password: ${5:SECRET}					
 	input:
-		$3
+		$6
 	output:
-		$4
+		$7
 </string>
 	<key>name</key>
-	<string>actions</string>
+	<string>base: std.ssh</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>act</string>
+	<string>bssh</string>
 	<key>uuid</key>
-	<string>8B8A3569-2231-49EB-B343-F7EF979D56D1</string>
+	<string>83A4F984-8DB0-4CDA-803B-8154F70237FD</string>
 </dict>
 </plist>

@@ -23,22 +23,24 @@ DEALINGS IN THE SOFTWARE.
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:action-name}:
-	base: ${2:base-name}
-	base-input:
-		$5
+	<string>action: std.email
 	input:
-		$3
-	output:
-		$4
-</string>
+		to_addrs: [${1:address@yourcompany.com}]
+		subject: ${2:Hi}
+		body: |
+			${3:Body}			
+		from_addr: ${4:mistral@yourcompany.com}
+		smtp_server: ${5:smtp.yourcompany.com}
+		smpt_password: ${6:SECRET}
+${7:	$8
+}$0</string>
 	<key>name</key>
-	<string>actions</string>
+	<string>action: std.email</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>act</string>
+	<string>aem</string>
 	<key>uuid</key>
-	<string>8B8A3569-2231-49EB-B343-F7EF979D56D1</string>
+	<string>DD058C27-5687-42F9-86D1-50FAB331BD06</string>
 </dict>
 </plist>

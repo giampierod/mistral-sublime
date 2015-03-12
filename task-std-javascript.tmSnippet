@@ -23,22 +23,18 @@ DEALINGS IN THE SOFTWARE.
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:action-name}:
-	base: ${2:base-name}
-	base-input:
-		$5
+	<string>action: std.javascript
 	input:
-		$3
-	output:
-		$4
-</string>
+		script: ${1:script}		
+${2:	$3
+}$0</string>
 	<key>name</key>
-	<string>actions</string>
+	<string>action: std.javascript</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>act</string>
+	<string>ajs</string>
 	<key>uuid</key>
-	<string>8B8A3569-2231-49EB-B343-F7EF979D56D1</string>
+	<string>CB3055A4-9392-43AA-BEEB-0DEDC3285ECC</string>
 </dict>
 </plist>
