@@ -42,15 +42,15 @@ DEALINGS IN THE SOFTWARE.
 			$20}
 ${21:	publish:
 		$22
-}${22:	on-success:
-		$23
-}${24:	on-error:
-		$25
-}${26:	policies:
-		$27
+}${23:	on-success:
+		$24
+}${25:	on-error:
+		$26
+}${27:	policies:
+		$28
 }$0</string>
 	<key>name</key>
-	<string>action: std.mistral_http</string>
+	<string>task: std.mistral_http</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>

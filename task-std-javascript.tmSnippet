@@ -33,14 +33,14 @@ ${2:	publish:
 }${6:	on-error:
 		$7
 }${8:	policies:
-		$9
+		$9.0
 }$0</string>
 	<key>name</key>
-	<string>action: std.javascript</string>
+	<string>task: std.javascript</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>ajs</string>
+	<string>tjs</string>
 	<key>uuid</key>
 	<string>CB3055A4-9392-43AA-BEEB-0DEDC3285ECC</string>
 </dict>

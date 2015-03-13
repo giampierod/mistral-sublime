@@ -42,11 +42,11 @@ ${7:	publish:
 		$13
 }$0</string>
 	<key>name</key>
-	<string>action: std.email</string>
+	<string>task: std.email</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>aem</string>
+	<string>tem</string>
 	<key>uuid</key>
 	<string>DD058C27-5687-42F9-86D1-50FAB331BD06</string>
 </dict>
