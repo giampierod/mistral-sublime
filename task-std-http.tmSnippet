@@ -40,7 +40,14 @@ DEALINGS IN THE SOFTWARE.
 		}${17:allow_redirects: ${18:false}
 		}${19:proxies:
 			$20}
-${21:	$22
+${21:	publish:
+		$22
+}${22:	on-success:
+		$23
+}${24:	on-error:
+		$25
+}${26:	policies:
+		$27
 }$0</string>
 	<key>name</key>
 	<string>action: std.http</string>

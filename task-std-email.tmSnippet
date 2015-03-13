@@ -32,7 +32,14 @@ DEALINGS IN THE SOFTWARE.
 		from_addr: ${4:mistral@yourcompany.com}
 		smtp_server: ${5:smtp.yourcompany.com}
 		smpt_password: ${6:SECRET}
-${7:	$8
+${7:	publish:
+		$8
+}${8:	on-success:
+		$9
+}${10:	on-error:
+		$11
+}${12:	policies:
+		$13
 }$0</string>
 	<key>name</key>
 	<string>action: std.email</string>

@@ -28,7 +28,16 @@ DEALINGS IN THE SOFTWARE.
 		type: ${2:type}
 		${3:input:
 			$4}
-		tasks:
+		${5:task-defaults:
+			${6:on-error:
+				$7
+			}${8:on-complete:
+				$9
+			}${10:on-success:
+				$10
+			}${11:policies:
+				$12}
+		}tasks:
 			$0
 </string>
 	<key>name</key>

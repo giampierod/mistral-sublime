@@ -29,14 +29,21 @@ DEALINGS IN THE SOFTWARE.
 		host: ${2:host}
 		username: ${3:username}
 		password: ${4:SECRET}
-${5:	$6
+${5:	publish:
+		$6
+}${6:	on-success:
+		$7
+}${8:	on-error:
+		$9
+}${10:	policies:
+		$11
 }$0</string>
 	<key>name</key>
 	<string>action: std.ssh</string>
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>assh</string>
+	<string>tssh</string>
 	<key>uuid</key>
 	<string>BD789282-74DF-4768-8D26-D9623F9D8CF8</string>
 </dict>

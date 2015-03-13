@@ -25,8 +25,13 @@ DEALINGS IN THE SOFTWARE.
 	<key>content</key>
 	<string>action: std.echo
 	input:
-		output: ${1:output}		
-${2:	$3
+		output: ${1:output}
+${2:	on-success:
+		$3
+}${4:	on-error:
+		$5
+}${6:	policies:
+		$7
 }$0</string>
 	<key>name</key>
 	<string>action: std.echo</string>

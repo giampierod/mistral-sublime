@@ -26,7 +26,14 @@ DEALINGS IN THE SOFTWARE.
 	<string>action: std.javascript
 	input:
 		script: ${1:script}		
-${2:	$3
+${2:	publish:
+		$3
+}${4:	on-success:
+		$5
+}${6:	on-error:
+		$7
+}${8:	policies:
+		$9
 }$0</string>
 	<key>name</key>
 	<string>action: std.javascript</string>
