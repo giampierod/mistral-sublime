@@ -34,12 +34,12 @@ DEALINGS IN THE SOFTWARE.
 		smpt_password: ${6:SECRET}
 ${7:	publish:
 		$8
-}${8:	on-success:
-		$9
-}${10:	on-error:
-		$11
-}${12:	policies:
-		$13
+}${9:	on-success:
+		$10
+}${11:	on-error:
+		$12
+}${13:	policies:
+		$14
 }$0</string>
 	<key>name</key>
 	<string>task: std.email</string>
