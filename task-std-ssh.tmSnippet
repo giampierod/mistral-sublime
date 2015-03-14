@@ -31,12 +31,12 @@ DEALINGS IN THE SOFTWARE.
 		password: ${4:SECRET}
 ${5:	publish:
 		$6
-}${6:	on-success:
-		$7
-}${8:	on-error:
-		$9
-}${10:	policies:
-		$11
+}${7:	on-success:
+		$8
+}${9:	on-error:
+		$10
+}${11:	policies:
+		$12
 }$0</string>
 	<key>name</key>
 	<string>action: std.ssh</string>
