@@ -28,9 +28,9 @@ DEALINGS IN THE SOFTWARE.
 	base-input:
 		script: ${2:script}		
 	input:
-		$6
+		$3
 	output:
-		$7
+		$4
 </string>
 	<key>name</key>
 	<string>base: std.javascript</string>

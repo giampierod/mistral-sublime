@@ -28,9 +28,9 @@ DEALINGS IN THE SOFTWARE.
 	base-input:
 		output: ${2:output}		
 	input:
-		$6
+		$3
 	output:
-		$7
+		$4
 </string>
 	<key>name</key>
 	<string>base: std.echo</string>

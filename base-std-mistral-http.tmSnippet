@@ -51,7 +51,7 @@ DEALINGS IN THE SOFTWARE.
 	<key>scope</key>
 	<string>source.yaml.mist</string>
 	<key>tabTrigger</key>
-	<string>bmht</string>
+	<string>bmhttp</string>
 	<key>uuid</key>
 	<string>8A3AFE60-74F0-4DC4-BD5C-18AF14D08151</string>
 </dict>
