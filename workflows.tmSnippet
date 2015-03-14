@@ -34,9 +34,9 @@ DEALINGS IN THE SOFTWARE.
 			}${8:on-complete:
 				$9
 			}${10:on-success:
-				$10
-			}${11:policies:
-				$12}
+				$11
+			}${12:policies:
+				$13}
 		}tasks:
 			$0
 </string>
